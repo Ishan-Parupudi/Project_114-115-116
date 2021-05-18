@@ -1,0 +1,32 @@
+h3
+{
+    font-size: xx-large !important;
+}
+.btn-info:hover
+{
+    background-color: tomato ;
+}
+
+canvas
+{
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count:infinite;
+}
+
+@keyframes example
+{
+from{box-shadow:1px 1px 38px blue;}
+to{box-shadow:1px 1px 38px violet;}
+}
+
+.copy_right_footer
+{
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    background-color: yellow;
+    font-weight: bolder;
+    line-height: 50px;
+    width: 100%;
+}
